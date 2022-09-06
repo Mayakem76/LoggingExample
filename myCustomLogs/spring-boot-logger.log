@@ -61,5 +61,331 @@
 2022-09-06 14:28:09,829 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-09-06 14:28:09,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2022-09-06 14:28:09,839 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
-2022-09-06 14:28:09,906 INFO kemy.dev.LoggingExample.controllers.LogController [http-nio-8080-exec-1] CALLING Welcome FROM CONTROLLER
+2022-09-06 14:28:09,906 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-1] CALLING Welcome FROM CONTROLLER
 2022-09-06 14:28:09,907 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-1] load Welcome from Politeness SERVICE
+2022-09-06 14:50:25,830 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 1508 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 14:50:25,835 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 14:50:25,836 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 14:50:26,041 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 14:50:26,043 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 14:50:29,335 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 14:50:29,372 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 14:50:29,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 14:50:29,374 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 14:50:29,580 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 14:50:29,581 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3536 ms
+2022-09-06 14:50:30,532 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 14:50:30,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 14:50:30,630 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 14:50:30,658 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 6.478 seconds (JVM running for 8.081)
+2022-09-06 14:50:45,255 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 14:50:45,259 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 14:50:45,273 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 12 ms
+2022-09-06 14:50:45,377 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 14:50:45,378 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:04:10,775 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 6608 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:04:10,781 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:04:10,783 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:04:11,019 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:04:11,022 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:04:14,586 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:04:14,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:04:14,621 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:04:14,622 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:04:14,832 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:04:14,833 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3808 ms
+2022-09-06 15:04:15,737 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:04:15,800 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:04:15,856 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:04:15,880 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 6.724 seconds (JVM running for 8.179)
+2022-09-06 15:04:23,214 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:04:23,217 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:04:23,221 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2022-09-06 15:04:23,277 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:04:23,277 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:08:16,850 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 5496 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:08:16,854 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:08:16,857 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:08:17,086 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:08:17,089 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:08:21,330 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:08:21,394 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:08:21,398 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:08:21,402 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:08:21,966 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:08:21,967 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4874 ms
+2022-09-06 15:08:24,152 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:08:24,297 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:08:24,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:08:24,451 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 9.285 seconds (JVM running for 11.539)
+2022-09-06 15:08:38,830 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:08:38,840 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:08:38,904 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 62 ms
+2022-09-06 15:08:39,150 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:08:39,155 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:16:12,271 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 11012 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:16:12,281 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:16:12,283 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:16:12,538 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:16:12,539 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:16:16,860 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:16:16,907 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:16:16,909 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:16:16,910 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:16:17,178 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:16:17,180 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4629 ms
+2022-09-06 15:16:18,304 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:16:18,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:16:18,394 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:16:18,425 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.844 seconds (JVM running for 9.449)
+2022-09-06 15:16:25,817 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:16:25,824 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:16:25,871 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 39 ms
+2022-09-06 15:16:25,983 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:16:25,984 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:18:15,737 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 13936 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:18:15,742 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:18:15,744 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:18:15,943 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:18:15,948 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:18:19,428 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:18:19,458 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:18:19,459 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:18:19,460 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:18:19,650 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:18:19,651 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3701 ms
+2022-09-06 15:18:20,518 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:18:20,558 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:18:20,613 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:18:20,640 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 6.487 seconds (JVM running for 7.852)
+2022-09-06 15:18:33,881 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:18:33,883 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:18:33,885 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-09-06 15:18:33,942 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:18:33,943 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:19:53,632 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 3872 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:19:53,637 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:19:53,639 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:19:53,881 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:19:53,887 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:19:57,612 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:19:57,645 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:19:57,648 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:19:57,649 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:19:57,932 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:19:57,933 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4045 ms
+2022-09-06 15:19:59,074 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:19:59,186 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:19:59,461 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:19:59,493 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.726 seconds (JVM running for 9.161)
+2022-09-06 15:20:07,976 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:20:07,987 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:20:08,000 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 10 ms
+2022-09-06 15:20:08,191 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:20:08,205 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:20:54,035 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 14160 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:20:54,048 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:20:54,050 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:20:54,243 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:20:54,245 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:20:57,792 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:20:57,831 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:20:57,833 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:20:57,834 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:20:58,049 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:20:58,050 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3803 ms
+2022-09-06 15:20:58,940 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:20:58,979 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:20:59,031 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:20:59,062 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 6.5 seconds (JVM running for 7.955)
+2022-09-06 15:21:14,522 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:21:14,532 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:21:14,535 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-09-06 15:21:15,201 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-1] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:21:15,203 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-1] load Welcome from Politeness SERVICE
+2022-09-06 15:47:08,268 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 14124 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:47:08,273 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:47:08,275 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:47:08,530 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:47:08,532 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:47:12,060 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:47:12,089 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:47:12,090 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:47:12,091 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:47:12,352 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:47:12,353 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3819 ms
+2022-09-06 15:47:13,504 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:47:13,539 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:47:13,591 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:47:13,621 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 6.897 seconds (JVM running for 8.34)
+2022-09-06 15:47:19,975 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:47:19,976 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:47:19,978 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2022-09-06 15:47:20,047 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:47:20,051 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:47:20,071 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.nio.file.NoSuchFileException: \IdeaProjects\LoggingExample\ReadMe.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at java.base/java.nio.file.Files.readString(Files.java:3366)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at kemy.dev.LoggingExample.services.PolitenessService.readFile(PolitenessService.java:27)
+	at kemy.dev.LoggingExample.services.PolitenessService.welcome(PolitenessService.java:20)
+	at kemy.dev.LoggingExample.controllers.BasicController.welcome(BasicController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-06 15:48:34,363 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 15040 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:48:34,369 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:48:34,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:48:34,559 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:48:34,560 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:48:38,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:48:38,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:48:38,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:48:38,613 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:48:39,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:48:39,015 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4454 ms
+2022-09-06 15:48:40,860 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:48:40,914 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:48:41,008 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:48:41,050 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 8.131 seconds (JVM running for 9.511)
+2022-09-06 15:48:48,892 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:48:48,893 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:48:48,895 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-09-06 15:48:48,948 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:48:48,949 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:49:38,287 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 10460 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:49:38,291 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:49:38,293 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:49:38,493 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:49:38,496 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:49:42,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:49:42,486 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:49:42,487 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:49:42,489 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:49:42,758 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:49:42,759 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4255 ms
+2022-09-06 15:49:43,847 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:49:43,890 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:49:43,935 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:49:43,959 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.054 seconds (JVM running for 8.391)
+2022-09-06 15:49:51,041 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:49:51,042 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:49:51,046 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2022-09-06 15:49:51,123 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:49:51,125 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:50:35,484 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 4056 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:50:35,489 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:50:35,491 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:50:35,831 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:50:35,838 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:50:39,927 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:50:39,955 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:50:39,957 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:50:39,958 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:50:40,169 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:50:40,170 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4326 ms
+2022-09-06 15:50:41,096 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:50:41,143 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:50:41,207 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:50:41,245 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.062 seconds (JVM running for 8.564)
+2022-09-06 15:50:53,856 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:50:53,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:50:53,865 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2022-09-06 15:50:53,950 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:50:53,951 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:54:26,955 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 12576 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:54:26,961 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:54:26,964 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:54:27,265 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:54:27,266 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:54:31,203 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:54:31,251 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:54:31,255 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:54:31,256 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:54:31,474 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:54:31,474 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4207 ms
+2022-09-06 15:54:32,878 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:54:32,913 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:54:32,967 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:54:33,002 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.371 seconds (JVM running for 8.932)
+2022-09-06 15:54:38,417 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:54:38,422 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:54:38,426 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2022-09-06 15:54:38,515 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:54:38,516 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE
+2022-09-06 15:54:53,792 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-3] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:54:53,810 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-3] load Welcome from Politeness SERVICE
+2022-09-06 15:55:51,670 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LoggingExampleApplication using Java 17.0.2 on Kem with PID 13944 (C:\Users\jubak\IdeaProjects\LoggingExample\target\classes started by Kem in C:\Users\jubak\IdeaProjects\LoggingExample)
+2022-09-06 15:55:51,675 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-06 15:55:51,678 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-06 15:55:51,921 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-06 15:55:51,922 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-06 15:55:56,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-06 15:55:56,221 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:55:56,222 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-06 15:55:56,223 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-06 15:55:56,415 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-06 15:55:56,417 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4493 ms
+2022-09-06 15:55:57,343 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-06 15:55:57,393 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-06 15:55:57,462 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-06 15:55:57,490 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LoggingExampleApplication in 7.435 seconds (JVM running for 9.24)
+2022-09-06 15:56:22,073 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-06 15:56:22,074 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-06 15:56:22,077 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2022-09-06 15:56:22,207 INFO kemy.dev.LoggingExample.controllers.BasicController [http-nio-8080-exec-2] CALLING Welcome FROM CONTROLLER
+2022-09-06 15:56:22,208 INFO kemy.dev.LoggingExample.services.PolitenessService [http-nio-8080-exec-2] load Welcome from Politeness SERVICE

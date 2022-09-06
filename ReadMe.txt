@@ -1,26 +1,19 @@
-scrivi un'applicazione Spring Boot con le dipendenze necessarie che:
-ha due variabili di ambiente int personalizzate con i valori 2e8
-inizia da INFOper la registrazione a livello di root
-inizia da DEBUGper la registrazione a livello di servizi
-possibili valori:
-#    DEBUG
-#    ERROR
-#    FATAL
-#    INFO
-#    OFF
-#    TRACE
-#    WARN
+--DESCRIZIONE PROGETTO: -----------------------------------------------------------------------
+Il progetto è stato creato come esempio di utilizzo dell'interfaccia Logger
+- file di configurazione: logback-spring.xml - crea una cartella (myCustomLogs) con dentro un file.log in cui vengono
+salvati tutti i log generati durante l'esecuzione del programma.
 
-le informazioni di registrazione hanno i colori ANSI abilitati
-ha un controller di base che ha 3 mappature:
-/: restituisce solo un messaggio di benvenuto e lo registra
-/exp: restituisce un servizio che:
-prende i 2 valori di env numerici, quindi registra e restituisce la potenza (esponente) dei 2 valori
-log all'inizio e alla fine del calcolo
-/get-errors: genera un nuovo errore personalizzato che verrà registrato
-salva tutti i log in una sottocartella chiamatamyCustomLogs
+-application.properties: contiene le configurazioni del log per ogni livello su ogni classe.
+-BasicController: contiene 3 chiamate:
+    -("/") welcome : Messaggio di benvenuto da PolitenessService e la descrizione che stai leggendo in questo momento;
+    -("/exp") exp: esegue la funzione Math.exp per ogni numeri intero dato (environment variables);
+    -("/pow") pow: esegue la potenza della base envValue1 con esponente envValue2;
+    -("/errors)" getError: esegue il log di tutti gli errori (da testare)
+-PolitenessService: contiene metodi di messaggi di cortesia (welcome, goodbye etc)
+    - welcome: return welcome message and ReadMe file;
 
--------------------------------------------------------------------------
+
+--TRACCIA ORIGINALE: ----------------------------------------------------------------------
 write a Spring Boot application with the necessary dependencies that:
 has two custom int environment variables with the values 2 and 8
 starts from INFO for root level logging

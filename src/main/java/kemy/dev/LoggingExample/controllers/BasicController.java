@@ -10,6 +10,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+
 /*ha un controller di base che ha 3 mappature:
 /: restituisce solo un messaggio di benvenuto e lo registra
 /exp: restituisce un servizio che:
@@ -18,21 +20,21 @@ log all'inizio e alla fine del calcolo
 /get-errors: genera un nuovo errore personalizzato che verrà registrato
  */
 @RestController
-public class LogController {
+public class BasicController {
     @Autowired
     Environment environment;
     @Autowired
     MathService mathService;
     @Autowired
     PolitenessService politenessService;
-    Logger logger= LoggerFactory.getLogger(LogController.class);
+    Logger logger= LoggerFactory.getLogger(BasicController.class);
     @Value("${customEnvs.n1}")
     int envValue1;
     @Value("${customEnvs.n2}")
     int envValue2;
 
     @GetMapping("/")
-    public String welcome(){
+    public String welcome() throws IOException {
         logger.info("CALLING Welcome FROM CONTROLLER");
         return politenessService.welcome();
     }
